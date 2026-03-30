@@ -66,4 +66,13 @@ int main(){
     cin>>nilM;
     cout<<"Masukan nilai Bahasa inggris =";
     cin>>nilB;
+
+    rerata = (nilB=nilM)/2;
+
+    if ((rerata >= 60) || (nilM >= 70))
+        status = "Lulus";
+    else
+        status = "Tidak lulus";
+
+    cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
 }
