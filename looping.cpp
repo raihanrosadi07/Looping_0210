@@ -34,5 +34,6 @@ int main(){
     cout<<endl;
 }
 
-
+#include <iostream>
+using namespace std;
 
